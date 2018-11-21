@@ -1,5 +1,7 @@
-package com.bellinfo.advanced.hibernate;
+package com.bellinfo.advanced.hibernate.crud;
 
+import com.bellinfo.advanced.hibernate.entity.Product;
+import com.bellinfo.advanced.hibernate.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

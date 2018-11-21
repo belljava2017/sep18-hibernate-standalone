@@ -1,7 +1,7 @@
 package com.bellinfo.advanced.hibernate.criteriaqueris;
 
-import com.bellinfo.advanced.hibernate.HibernateUtil;
-import com.bellinfo.advanced.hibernate.Product;
+import com.bellinfo.advanced.hibernate.util.HibernateUtil;
+import com.bellinfo.advanced.hibernate.entity.Product;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

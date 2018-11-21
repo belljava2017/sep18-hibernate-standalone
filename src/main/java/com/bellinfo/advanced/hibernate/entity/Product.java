@@ -1,4 +1,4 @@
-package com.bellinfo.advanced.hibernate;
+package com.bellinfo.advanced.hibernate.entity;
 
 
 import org.hibernate.annotations.GeneratorType;

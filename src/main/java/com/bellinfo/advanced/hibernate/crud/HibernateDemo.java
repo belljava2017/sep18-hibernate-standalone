@@ -1,5 +1,7 @@
-package com.bellinfo.advanced.hibernate;
+package com.bellinfo.advanced.hibernate.crud;
 
+import com.bellinfo.advanced.hibernate.entity.Product;
+import com.bellinfo.advanced.hibernate.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -9,8 +11,8 @@ public class HibernateDemo {
 
 
         Product prod = new Product();
-        prod.setName("LENOVA");
-        prod.setCost(1000);
+        prod.setName("AMAZON");
+        prod.setCost(500);
 
 
         SessionFactory sf = HibernateUtil.newSessionFactory();
