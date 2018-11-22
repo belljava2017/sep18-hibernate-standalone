@@ -31,6 +31,10 @@ public class HibernateUtil {
                 .addAnnotatedClass(Professor.class)
                 .addAnnotatedClass(Car.class)
                 .addAnnotatedClass(Bike.class)
+                .addAnnotatedClass(Items.class)
+                .addAnnotatedClass(Cart.class)
+                .addAnnotatedClass(Employee.class)
+                .addAnnotatedClass(Detail.class)
                 .buildSessionFactory(
                         new StandardServiceRegistryBuilder()
                                 .applySettings(properties)
